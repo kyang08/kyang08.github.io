@@ -1,0 +1,198 @@
+/* global code */
+
+div {
+  font-family: arial;
+}
+
+body {
+  background-image: url("../images/brick.jpeg");
+}
+
+.bodywrap {
+  min-height:100%
+
+}
+
+.centertext {
+  text-align: center;
+}
+
+/* hyperlink code */
+
+.navbutton > a:hover {
+  background-color: #1C6EBF;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+/* header code */
+
+.headercontainer {
+  background-color: orange;
+  opacity: .85;
+}
+
+.headertext {
+  padding: .5em;
+  font-size: 80px;
+  width: 6em;
+  margin: 12px auto;
+  color: white;
+  text-shadow: 4px 4px black;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* navigation code */
+
+.navigationbar {
+  background-color: white;
+  text-align: left;
+  flex-wrap: wrap;
+  padding: .5em;
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  min-width: 300px;
+  margin-right: 60px;
+  margin-left: 60px;
+  opacity: .8;
+}
+
+/* page title code */
+
+.pagetitle > h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* footer code */
+
+.footer {
+justify-content: center;
+padding: 12px;
+color: black;
+border-radius: 12px;
+margin-top: 30px;
+display: flex;
+}
+
+#footeremail {
+  text-decoration: underline;
+}
+
+/* landing page code */
+
+#landingpagepage {
+  background-color: lightgrey;
+}
+
+.landingpagelogo {
+  display: flex;
+  justify-content: center;
+}
+
+.landingpagetext {
+  text-align: center;
+  font-size: 75px;
+}
+
+/* updates code */
+
+.updatescontainer {
+  background-color: white;
+  border-style: solid;
+  padding: 1em;
+  margin: 2em;
+  opacity: .9;
+}
+
+.updatestitledate > h2 {
+  font-size: 40px;
+  display: inline;
+}
+
+.updatescontent {
+  line-height: 1.25em;
+}
+
+/* about me code */
+
+.aboutmecontainer {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-style: solid;
+  min-width: 600px;
+}
+
+.aboutmetext {
+  padding: 1em;
+  line-height: 1.25em;
+
+}
+
+.aboutmeimage > img {
+  width: 225px;
+  padding: 2px;
+}
+
+/* portfolio code */
+
+.portfoliocontentcontainer {
+  display: flex;
+  background-color: white;
+  border-style: solid;
+  height: 330px;
+  margin: 12px;
+}
+
+.portfolioiframecontainer {
+  margin: auto;
+  align: left;
+}
+
+.portfiolotextcontainer {
+  padding: 12px;
+}
+
+/* contact me code */
+
+.contactmeicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  align-items: center;
+}
+
+.contactmetext {
+  font-weight: bold;
+}
+
+#emailicon {
+  background-color: #FFBA6F;
+}
+
+#twittericon {
+  background-color: white;
+}
+
+#facebookicon {
+  background-color: #FFBA6F;
+}
+
+.contactmecontainer {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  width: : 70%;
+  align-self: center;
+}
